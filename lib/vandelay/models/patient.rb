@@ -18,7 +18,9 @@ module Vandelay
         end
         return nil if result.nil?
 
-        Vandelay::Models::Patient.new(**result)
+        ## Vandelay Model not working, I disabled this line, and updated.
+        # Vandelay::Models::Patient.new(**result)
+        result
       end
 
     end
